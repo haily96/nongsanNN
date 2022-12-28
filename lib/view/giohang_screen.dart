@@ -288,6 +288,7 @@ class _GioHangScreen extends State<GioHangScreen>{
                                  hash.putIfAbsent("hinhanh", () => sapham.imgPath.toString());
                                  hash.putIfAbsent("soluong", () => sapham.soluong.toString());
                                  hash.putIfAbsent("sdt", () =>  sdt);
+                                 hash.putIfAbsent("idhoadon", () =>  value.id.toString());
                                   FirebaseFirestore.instance.collection("ChiTietHD")
                                       .add(hash).then((value) {
 

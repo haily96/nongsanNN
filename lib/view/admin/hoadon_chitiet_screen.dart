@@ -32,6 +32,7 @@ class _HoaDonChiTietScreen extends State<HoaDonChiTietScreen>{
     listHoaDon = [];
         FirebaseFirestore.instance.collection("ChiTietHD")
         .where("sdt",isEqualTo: widget.hoaDonModel.sdt)
+        .where("idhoadon",isEqualTo: widget.hoaDonModel.id)
         .get().then((value) {
       if(value.docs.isNotEmpty){
         for(final data in value.docs){

@@ -68,9 +68,9 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\LEGION\.grad
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\LEGION\.gradle\caches\transforms-3\f95b31beb5b7f2eb055a97bf2e6fcf0f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\LEGION\.gradle\caches\transforms-3\8129b238d4d069661aca07bff47ad65b\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\LEGION\.gradle\caches\transforms-3\2926cbc8da7cfff1c5633b32799072d8\transformed\jetified-grpc-android-1.48.1\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\ttcn2_nongsan-main\android\app\src\debug\AndroidManifest.xml:1:1-4:12
-INJECTED from D:\ttcn2_nongsan-main\android\app\src\debug\AndroidManifest.xml:1:1-4:12
-INJECTED from D:\ttcn2_nongsan-main\android\app\src\debug\AndroidManifest.xml:1:1-4:12
+INJECTED from D:\ttcn2_nongsan-main\android\app\src\debug\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\ttcn2_nongsan-main\android\app\src\debug\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\ttcn2_nongsan-main\android\app\src\debug\AndroidManifest.xml:1:1-6:12
 	package
 		ADDED from D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:2:5-38
 		INJECTED from D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml
@@ -95,6 +95,8 @@ MERGED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\LEGION\.gra
 		ADDED from D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:3:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:4:5-78
+MERGED from D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:4:5-78
+MERGED from D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:4:5-78
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\LEGION\.gradle\caches\transforms-3\e39fe4bf08d15a7a36bde2a48516de12\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\LEGION\.gradle\caches\transforms-3\e39fe4bf08d15a7a36bde2a48516de12\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:12:5-79
 MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\LEGION\.gradle\caches\transforms-3\2926cbc8da7cfff1c5633b32799072d8\transformed\jetified-grpc-android-1.48.1\AndroidManifest.xml:9:5-79
