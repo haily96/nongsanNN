@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dung.banhangrausach"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="32" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:4:5-78
+12-->D:\ttcn2_nongsan-main\android\app\src\main\AndroidManifest.xml:4:22-76
+13
+14    <application
+15        android:name="android.app.Application"
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] C:\Users\LEGION\.gradle\caches\transforms-3\aa701b47cec244085d46a1a42fcc7fb9\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+19        android:label="banhangrausach" >
+20        <activity
+21            android:name="com.dung.banhangrausach.MainActivity"
+22            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+23            android:exported="true"
+24            android:hardwareAccelerated="true"
+25            android:launchMode="singleTop"
+26            android:theme="@style/LaunchTheme"
+27            android:windowSoftInputMode="adjustResize" >
+28
+29            <!--
+30                 Specifies an Android theme to apply to this Activity as soon as
+31                 the Android process has started. This theme is visible to the user
+32                 while the Flutter UI initializes. After that, this theme continues
+33                 to determine the Window background behind the Flutter UI.
+34            -->
+35            <meta-data
+36                android:name="io.flutter.embedding.android.NormalTheme"
+37                android:resource="@style/NormalTheme" />
+38
+39            <intent-filter>
+40                <action android:name="android.intent.action.MAIN" />
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+43            </intent-filter>
+44        </activity>
+45        <!--
+46             Don't delete the meta-data below.
+47             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+48        -->
+49        <meta-data
+50            android:name="flutterEmbedding"
+51            android:value="2" />
+52
+53        <service
+53-->[:cloud_firestore] D:\ttcn2_nongsan-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+54            android:name="com.google.firebase.components.ComponentDiscoveryService"
+54-->[:cloud_firestore] D:\ttcn2_nongsan-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+55            android:directBootAware="true"
+55-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LEGION\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+56            android:exported="false" >
+56-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\LEGION\.gradle\caches\transforms-3\e39fe4bf08d15a7a36bde2a48516de12\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:18:13-37
+57            <meta-data
+57-->[:cloud_firestore] D:\ttcn2_nongsan-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+58                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+58-->[:cloud_firestore] D:\ttcn2_nongsan-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[:cloud_firestore] D:\ttcn2_nongsan-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+60            <meta-data
+60-->[:firebase_core] D:\ttcn2_nongsan-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+61                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+61-->[:firebase_core] D:\ttcn2_nongsan-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:firebase_core] D:\ttcn2_nongsan-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\LEGION\.gradle\caches\transforms-3\e39fe4bf08d15a7a36bde2a48516de12\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:19:13-21:85
+64                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+64-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\LEGION\.gradle\caches\transforms-3\e39fe4bf08d15a7a36bde2a48516de12\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:20:17-111
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\LEGION\.gradle\caches\transforms-3\e39fe4bf08d15a7a36bde2a48516de12\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:21:17-82
+66        </service>
+67
+68        <uses-library
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\LEGION\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+69            android:name="androidx.window.extensions"
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\LEGION\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\LEGION\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+71        <uses-library
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\LEGION\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+72            android:name="androidx.window.sidecar"
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\LEGION\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\LEGION\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+74
+75        <provider
+75-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LEGION\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+76            android:name="com.google.firebase.provider.FirebaseInitProvider"
+76-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LEGION\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+77            android:authorities="com.dung.banhangrausach.firebaseinitprovider"
+77-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LEGION\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+78            android:directBootAware="true"
+78-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LEGION\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+79            android:exported="false"
+79-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LEGION\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+80            android:initOrder="100" />
+80-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LEGION\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\LEGION\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\LEGION\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\LEGION\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\LEGION\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\LEGION\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\LEGION\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\LEGION\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+90    </application>
+91
+92</manifest>
