@@ -1,5 +1,4 @@
-import 'package:banhangrausach/config/share_config.dart';
-import 'package:banhangrausach/databases/DBManager.dart';
+
 import 'package:banhangrausach/model/sanpham_model.dart';
 import 'package:banhangrausach/view/admin/doanhthu_screen.dart';
 import 'package:banhangrausach/view/admin/hoadon_screen.dart';
@@ -59,7 +58,6 @@ class _AdminScreen extends State<AdminScreen> {
 
           body: Column(
             children: [
-
               Container(
                 width: double.infinity,
                 height: 120,

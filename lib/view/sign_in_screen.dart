@@ -2,7 +2,7 @@
 
 
 import 'package:banhangrausach/config/share_config.dart';
-import 'package:banhangrausach/databases/DBManager.dart';
+
 import 'package:banhangrausach/view/home_screen.dart';
 import 'package:banhangrausach/view/sign_in_admin.dart';
 import 'package:banhangrausach/view/sign_up_screen.dart';

@@ -2,7 +2,7 @@
 import 'dart:collection';
 
 import 'package:banhangrausach/config/share_config.dart';
-import 'package:banhangrausach/databases/DBManager.dart';
+
 import 'package:banhangrausach/model/sanpham_model.dart';
 import 'package:banhangrausach/view/giohang_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';

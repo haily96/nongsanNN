@@ -9,7 +9,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../databases/DBManager.dart';
 import '../../model/sanpham_model.dart';
 
 class SanPhamScreen extends StatefulWidget{
@@ -42,7 +41,6 @@ class _SanPhamScreen extends State<SanPhamScreen>{
             sanPhamModel.description = data.get("mota");
             sanPhamModel.imgPath = data.get("hinhanh");
             sanPhamModel.type = data.get("type");
-
 
             listSanPham.add(sanPhamModel);
           }

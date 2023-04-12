@@ -6,8 +6,9 @@ class ChiTietHoaDonModel{
   String? giatien;
   String? hinhanh;
   String? soluong;
+  String? sdt;
 
 
-  ChiTietHoaDonModel({this.id,this.tensp,this.giatien,this.hinhanh,this.soluong});
+  ChiTietHoaDonModel({this.id,this.tensp,this.giatien,this.hinhanh,this.soluong,this.sdt});
 
 }

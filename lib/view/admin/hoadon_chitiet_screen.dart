@@ -2,8 +2,6 @@
 
 import 'dart:collection';
 
-import 'package:banhangrausach/config/share_config.dart';
-import 'package:banhangrausach/databases/DBManager.dart';
 import 'package:banhangrausach/model/chitiet_hoa_don_model.dart';
 import 'package:banhangrausach/model/hoadon_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -42,6 +40,7 @@ class _HoaDonChiTietScreen extends State<HoaDonChiTietScreen>{
           sanPhamModel.hinhanh = data.get("hinhanh");
           sanPhamModel.tensp = data.get("tensp");
           sanPhamModel.soluong = data.get("soluong");
+          sanPhamModel.sdt = data.get("sdt");
 
           listHoaDon.add(sanPhamModel);
         }
@@ -77,7 +76,7 @@ class _HoaDonChiTietScreen extends State<HoaDonChiTietScreen>{
     return InkWell(
       child: Container(
         width: double.infinity,
-        height: 200,
+        // height: 200,
         padding: const EdgeInsets.only(left: 10),
         margin: const EdgeInsets.only(top: 15,bottom: 15,left: 15,right: 15),
         decoration: BoxDecoration(
@@ -104,6 +103,12 @@ class _HoaDonChiTietScreen extends State<HoaDonChiTietScreen>{
                 fontWeight: FontWeight.w700,
                 color: Colors.black
             ),),),
+            // Padding(padding: const EdgeInsets.only(left: 5,top: 5),child: Text("Số điện thoại: ${hoaDonModel.sdt}",style: GoogleFonts.oswald(
+            //     fontSize: 18,
+            //     fontWeight: FontWeight.w700,
+            //     color: Colors.black
+            // ),),),
+
             Padding(padding: const EdgeInsets.only(left: 5,top: 5),child: Text("Trạng thái: ${hoaDonModel.trangthai}",style: GoogleFonts.oswald(
                 fontSize: 18,
                 fontWeight: FontWeight.w700,

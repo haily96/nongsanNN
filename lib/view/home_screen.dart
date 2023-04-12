@@ -1,5 +1,5 @@
 import 'package:banhangrausach/config/share_config.dart';
-import 'package:banhangrausach/databases/DBManager.dart';
+
 import 'package:banhangrausach/model/sanpham_model.dart';
 import 'package:banhangrausach/view/giohang_screen.dart';
 import 'package:banhangrausach/view/sanpham_chitiet_screen.dart';
@@ -289,7 +289,7 @@ class _HomeScreen extends State<HomeScreen> {
               ),
              Expanded(child:  GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                  crossAxisCount: 2,
-                 childAspectRatio: 1.5,
+                 childAspectRatio: 1.3,
                crossAxisSpacing: 15,mainAxisSpacing: 25
              ),
                  shrinkWrap: true,
@@ -320,6 +320,7 @@ class _HomeScreen extends State<HomeScreen> {
 
       },
       child: Container(
+        height: 200,
         margin: const EdgeInsets.only(left: 15,right: 15),
         padding: const EdgeInsets.only(top: 5),
         decoration: BoxDecoration(
